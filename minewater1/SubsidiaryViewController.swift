@@ -202,10 +202,10 @@ extension SubsidiaryViewController: UICollectionViewDelegate, UICollectionViewDa
         // Get reference to the destination view controller
         if(segue?.identifier == "area")
         {
-            //let detailVC  = segue!.destinationViewController as! AreaViewController
-            let navVC = segue!.destinationViewController as! UINavigationController
+            let detailVC  = segue!.destinationViewController as! AreaViewController
+            //let navVC = segue!.destinationViewController as! UINavigationController
             
-            let detailVC = navVC.viewControllers.first as! AreaViewController
+           // let detailVC = navVC.viewControllers.first as! AreaViewController
             // Set the property to the selected location so when the view for
             // detail view controller loads, it can access that property to get the feeditem obj
             //detailVC.detail = selectedLocation
