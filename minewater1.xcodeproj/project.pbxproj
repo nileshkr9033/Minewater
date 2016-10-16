@@ -9,11 +9,23 @@
 /* Begin PBXBuildFile section */
 		210A67B91DA626F9002408F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A67B81DA626F9002408F4 /* AppDelegate.swift */; };
 		210A67BB1DA626F9002408F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A67BA1DA626F9002408F4 /* ViewController.swift */; };
-		210A67BE1DA626F9002408F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210A67BC1DA626F9002408F4 /* Main.storyboard */; };
 		210A67C01DA626F9002408F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210A67BF1DA626F9002408F4 /* Assets.xcassets */; };
 		210A67C31DA626F9002408F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210A67C11DA626F9002408F4 /* LaunchScreen.storyboard */; };
 		210A67CE1DA626F9002408F4 /* minewater1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A67CD1DA626F9002408F4 /* minewater1Tests.swift */; };
 		210A67D91DA626F9002408F4 /* minewater1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A67D81DA626F9002408F4 /* minewater1UITests.swift */; };
+		210A67E91DA62D59002408F4 /* custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A67E81DA62D59002408F4 /* custom.swift */; };
+		210A67EE1DA6327F002408F4 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A67ED1DA6327F002408F4 /* KDCircularProgress.swift */; };
+		210A67F11DA632E0002408F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210A67EF1DA632E0002408F4 /* Main.storyboard */; };
+		2159846E1DAFAA3400132929 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2159846D1DAFAA3400132929 /* LandingViewController.swift */; };
+		215984A31DB1008900132929 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 215984A21DB1008900132929 /* SWRevealViewController.m */; };
+		215984A51DB1069D00132929 /* SubsidiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215984A41DB1069D00132929 /* SubsidiaryViewController.swift */; };
+		215984AB1DB1180400132929 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215984AA1DB1180400132929 /* RightViewController.swift */; };
+		215984B11DB1192F00132929 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215984B01DB1192F00132929 /* LeftViewController.swift */; };
+		215984B31DB1235200132929 /* SubsidiaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215984B21DB1235200132929 /* SubsidiaryTableViewCell.swift */; };
+		215984B51DB12CB900132929 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215984B41DB12CB900132929 /* Helpers.swift */; };
+		215984B71DB2108A00132929 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215984B61DB2108A00132929 /* CollectionViewCell.swift */; };
+		215984B91DB23E5800132929 /* AreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215984B81DB23E5800132929 /* AreaViewController.swift */; };
+		665A40E020F40A1EFBE5168A /* Pods_minewater1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CCE3A979D059178A5EE938 /* Pods_minewater1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +49,6 @@
 		210A67B51DA626F9002408F4 /* minewater1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minewater1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		210A67B81DA626F9002408F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		210A67BA1DA626F9002408F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		210A67BD1DA626F9002408F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		210A67BF1DA626F9002408F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210A67C21DA626F9002408F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210A67C41DA626F9002408F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +58,23 @@
 		210A67D41DA626F9002408F4 /* minewater1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minewater1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		210A67D81DA626F9002408F4 /* minewater1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minewater1UITests.swift; sourceTree = "<group>"; };
 		210A67DA1DA626F9002408F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210A67E81DA62D59002408F4 /* custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = custom.swift; sourceTree = "<group>"; };
+		210A67ED1DA6327F002408F4 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
+		210A67F01DA632E0002408F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2159846D1DAFAA3400132929 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		215984A01DB1008900132929 /* minewater1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "minewater1-Bridging-Header.h"; sourceTree = "<group>"; };
+		215984A11DB1008900132929 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		215984A21DB1008900132929 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		215984A41DB1069D00132929 /* SubsidiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubsidiaryViewController.swift; sourceTree = "<group>"; };
+		215984AA1DB1180400132929 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		215984B01DB1192F00132929 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		215984B21DB1235200132929 /* SubsidiaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubsidiaryTableViewCell.swift; sourceTree = "<group>"; };
+		215984B41DB12CB900132929 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		215984B61DB2108A00132929 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		215984B81DB23E5800132929 /* AreaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaViewController.swift; sourceTree = "<group>"; };
+		67CCE3A979D059178A5EE938 /* Pods_minewater1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_minewater1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C6D842D2F46E22D092C941 /* Pods-minewater1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minewater1.release.xcconfig"; path = "Pods/Target Support Files/Pods-minewater1/Pods-minewater1.release.xcconfig"; sourceTree = "<group>"; };
+		CE05A452E7BCE9BA6F6C439D /* Pods-minewater1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minewater1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-minewater1/Pods-minewater1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665A40E020F40A1EFBE5168A /* Pods_minewater1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B9D461D69F39CF86CDB877D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE05A452E7BCE9BA6F6C439D /* Pods-minewater1.debug.xcconfig */,
+				78C6D842D2F46E22D092C941 /* Pods-minewater1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		210A67AC1DA626F9002408F4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				210A67CC1DA626F9002408F4 /* minewater1Tests */,
 				210A67D71DA626F9002408F4 /* minewater1UITests */,
 				210A67B61DA626F9002408F4 /* Products */,
+				1B9D461D69F39CF86CDB877D /* Pods */,
+				F07445B52A87F81D07EBA2D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +137,23 @@
 		210A67B71DA626F9002408F4 /* minewater1 */ = {
 			isa = PBXGroup;
 			children = (
+				2159849F1DB1005900132929 /* SWReveal */,
 				210A67B81DA626F9002408F4 /* AppDelegate.swift */,
+				210A67ED1DA6327F002408F4 /* KDCircularProgress.swift */,
 				210A67BA1DA626F9002408F4 /* ViewController.swift */,
-				210A67BC1DA626F9002408F4 /* Main.storyboard */,
+				210A67E81DA62D59002408F4 /* custom.swift */,
 				210A67BF1DA626F9002408F4 /* Assets.xcassets */,
+				210A67EF1DA632E0002408F4 /* Main.storyboard */,
 				210A67C11DA626F9002408F4 /* LaunchScreen.storyboard */,
 				210A67C41DA626F9002408F4 /* Info.plist */,
+				2159846D1DAFAA3400132929 /* LandingViewController.swift */,
+				215984A41DB1069D00132929 /* SubsidiaryViewController.swift */,
+				215984AA1DB1180400132929 /* RightViewController.swift */,
+				215984B01DB1192F00132929 /* LeftViewController.swift */,
+				215984B21DB1235200132929 /* SubsidiaryTableViewCell.swift */,
+				215984B41DB12CB900132929 /* Helpers.swift */,
+				215984B61DB2108A00132929 /* CollectionViewCell.swift */,
+				215984B81DB23E5800132929 /* AreaViewController.swift */,
 			);
 			path = minewater1;
 			sourceTree = "<group>";
@@ -125,6 +176,24 @@
 			path = minewater1UITests;
 			sourceTree = "<group>";
 		};
+		2159849F1DB1005900132929 /* SWReveal */ = {
+			isa = PBXGroup;
+			children = (
+				215984A11DB1008900132929 /* SWRevealViewController.h */,
+				215984A21DB1008900132929 /* SWRevealViewController.m */,
+				215984A01DB1008900132929 /* minewater1-Bridging-Header.h */,
+			);
+			name = SWReveal;
+			sourceTree = "<group>";
+		};
+		F07445B52A87F81D07EBA2D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67CCE3A979D059178A5EE938 /* Pods_minewater1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 210A67DD1DA626F9002408F4 /* Build configuration list for PBXNativeTarget "minewater1" */;
 			buildPhases = (
+				AB32081143E776244C130B6D /* [CP] Check Pods Manifest.lock */,
 				210A67B11DA626F9002408F4 /* Sources */,
 				210A67B21DA626F9002408F4 /* Frameworks */,
 				210A67B31DA626F9002408F4 /* Resources */,
+				98208FAC1E752CBB3CBCCC96 /* [CP] Embed Pods Frameworks */,
+				DD6D856D8FD771A773A82C35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,17 +266,20 @@
 					210A67B41DA626F9002408F4 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = C76MY5NBVC;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					210A67C81DA626F9002408F4 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = C76MY5NBVC;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 210A67B41DA626F9002408F4;
 					};
 					210A67D31DA626F9002408F4 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = C76MY5NBVC;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 210A67B41DA626F9002408F4;
 					};
@@ -235,9 +310,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210A67F11DA632E0002408F4 /* Main.storyboard in Resources */,
 				210A67C31DA626F9002408F4 /* LaunchScreen.storyboard in Resources */,
 				210A67C01DA626F9002408F4 /* Assets.xcassets in Resources */,
-				210A67BE1DA626F9002408F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +332,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		98208FAC1E752CBB3CBCCC96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minewater1/Pods-minewater1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB32081143E776244C130B6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6D856D8FD771A773A82C35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minewater1/Pods-minewater1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		210A67B11DA626F9002408F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215984A51DB1069D00132929 /* SubsidiaryViewController.swift in Sources */,
+				215984AB1DB1180400132929 /* RightViewController.swift in Sources */,
+				215984B71DB2108A00132929 /* CollectionViewCell.swift in Sources */,
+				215984B31DB1235200132929 /* SubsidiaryTableViewCell.swift in Sources */,
+				215984B91DB23E5800132929 /* AreaViewController.swift in Sources */,
+				210A67EE1DA6327F002408F4 /* KDCircularProgress.swift in Sources */,
+				215984B51DB12CB900132929 /* Helpers.swift in Sources */,
+				210A67E91DA62D59002408F4 /* custom.swift in Sources */,
 				210A67BB1DA626F9002408F4 /* ViewController.swift in Sources */,
+				2159846E1DAFAA3400132929 /* LandingViewController.swift in Sources */,
+				215984B11DB1192F00132929 /* LeftViewController.swift in Sources */,
 				210A67B91DA626F9002408F4 /* AppDelegate.swift in Sources */,
+				215984A31DB1008900132929 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,20 +433,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		210A67BC1DA626F9002408F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				210A67BD1DA626F9002408F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		210A67C11DA626F9002408F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				210A67C21DA626F9002408F4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		210A67EF1DA632E0002408F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210A67F01DA632E0002408F4 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,27 +547,34 @@
 		};
 		210A67DE1DA626F9002408F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE05A452E7BCE9BA6F6C439D /* Pods-minewater1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = C76MY5NBVC;
 				INFOPLIST_FILE = minewater1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinayj.minewater1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "minewater1/minewater1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		210A67DF1DA626F9002408F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C6D842D2F46E22D092C941 /* Pods-minewater1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = C76MY5NBVC;
 				INFOPLIST_FILE = minewater1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinayj.minewater1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "minewater1/minewater1-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -447,7 +588,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinayj.minewater1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minewater1.app/minewater1";
 			};
 			name = Debug;
@@ -462,7 +603,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinayj.minewater1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minewater1.app/minewater1";
 			};
 			name = Release;
@@ -476,7 +617,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinayj.minewater1UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = minewater1;
 			};
 			name = Debug;
@@ -490,7 +631,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinayj.minewater1UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = minewater1;
 			};
 			name = Release;
@@ -514,6 +655,7 @@
 				210A67DF1DA626F9002408F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		210A67E01DA626F9002408F4 /* Build configuration list for PBXNativeTarget "minewater1Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +664,7 @@
 				210A67E21DA626F9002408F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		210A67E31DA626F9002408F4 /* Build configuration list for PBXNativeTarget "minewater1UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +673,7 @@
 				210A67E51DA626F9002408F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
