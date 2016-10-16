@@ -23,7 +23,7 @@ class AreaViewController: UIViewController {
             rightbutton.action = #selector(SWRevealViewController.rightRevealToggle(_:))
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
             
-            
+            print("Hello")
         }
 
         // Do any additional setup after loading the view.
