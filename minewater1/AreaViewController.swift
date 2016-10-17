@@ -120,7 +120,7 @@ class AreaViewController: UIViewController, UITableViewDelegate, UITableViewData
                         self.DataArray.append(Data(company: a, discharge: b, projectuse: c,otheruse: d))
                         
                     }
-                    
+                    print("#\(self.DataArray.count)")
                     
                     self.flag=1
                     self.tableView.reloadData()
@@ -152,7 +152,7 @@ class AreaViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of feed items
         
-        return DataArray.count
+        return self.DataArray.count
         
     }
     
@@ -165,7 +165,7 @@ class AreaViewController: UIViewController, UITableViewDelegate, UITableViewData
     
         myCell.company.text! = DataArray[indexPath.row].company
 
-        
+        print("asdfqwer")
         
         
         return myCell

@@ -222,7 +222,6 @@
         <!--Right View Controller-->
         <scene sceneID="cJI-me-kns">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MIL-SQ-szr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="SU2-6D-s5G" customClass="RightViewController" customModule="minewater1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xht-MK-SkS"/>
@@ -244,6 +243,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="kue-7G-gva"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MIL-SQ-szr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="788" y="757.87106446776613"/>
         </scene>
@@ -456,6 +456,20 @@
                                                     </tableViewCell>
                                                 </prototypes>
                                             </tableView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbp-yS-HBJ">
+                                                <frame key="frameInset" minX="68" minY="30" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ka-bg-RiI">
+                                                <frame key="frameInset" minX="269" minY="30" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -494,7 +508,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="slc-xf-fao" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5256" y="-1264"/>
+            <point key="canvasLocation" x="5650" y="-144"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CZ7-Mi-ksV">
@@ -652,7 +666,6 @@
         <!--Navigation Controller-->
         <scene sceneID="bt3-Dj-9xW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="naO-OZ-M5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PVL-1T-KfZ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tlF-Of-Jfa">
@@ -664,6 +677,7 @@
                         <segue destination="SU2-6D-s5G" kind="relationship" relationship="rootViewController" id="m4Z-K4-jdV"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="naO-OZ-M5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1366" y="623"/>
         </scene>
