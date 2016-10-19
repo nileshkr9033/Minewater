@@ -18,7 +18,9 @@ class SubsidiaryViewController: UIViewController, UITableViewDelegate, UITableVi
     @IBOutlet weak var leftbutton: UIBarButtonItem!
     let model = generateRandomData()
     var storedOffsets = [Int: CGFloat]()
-    
+    var flag1=0
+   // var subsidairy = ""
+    static var subsi=""
     override func viewDidLoad() {
         super.viewDidLoad()
         if self.revealViewController() != nil {
@@ -161,7 +163,14 @@ class SubsidiaryViewController: UIViewController, UITableViewDelegate, UITableVi
         tableViewCell.collectionViewOffset = storedOffsets[indexPath.row] ?? 0
         tableViewCell.tag = indexPath.section
     }
-    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        // Set selected location to var
+        // selectedLocation = feedItems[indexPath.row] as! LocationModel2
+        // Manually call segue to detail view controller
+        //subsidairy=DataArray[indexPath.row].company
+       // self.performSegueWithIdentifier("area", sender: self)
+        
+    }
     
      func tableView(tableView: UITableView, didEndDisplayingCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
         
@@ -194,9 +203,28 @@ extension SubsidiaryViewController: UICollectionViewDelegate, UICollectionViewDa
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         print("Collection view at row \(collectionView.tag) selected index path \(indexPath)")
-         self.performSegueWithIdentifier("area", sender: self)
-    }
+       // subsidairy=DataArray[collectionView.tag].company
+        // self.performSegueWithIdentifier("area", sender: self)
+        if(indexPath.row != 8)
+        {
+            SubsidiaryViewController.doSomething(DataArray[collectionView.tag].company)
+            LeftViewController.doSomething(DataArray[collectionView.tag].company)
+            NSNotificationCenter.defaultCenter().postNotificationName("load",
+                                                                      object: nil,
+                                                                      userInfo:["message":"aaaaaaaaaaaaaaaaaaaa"])
+            print("####")
+            
+            self.performSegueWithIdentifier("area", sender: self)
+        }
 
+        
+    }
+    class func doSomething(comp: String)
+    {
+        
+        subsi=comp
+        
+    }
     
     override func prepareForSegue(segue: UIStoryboardSegue?, sender: AnyObject?) {
         // Get reference to the destination view controller
@@ -208,11 +236,12 @@ extension SubsidiaryViewController: UICollectionViewDelegate, UICollectionViewDa
            // let detailVC = navVC.viewControllers.first as! AreaViewController
             // Set the property to the selected location so when the view for
             // detail view controller loads, it can access that property to get the feeditem obj
-            //detailVC.detail = selectedLocation
+            detailVC.flag = flag1
+          //  detailVC.DataArray=DataArray
         }
-        else if(segue?.identifier == "update")
+        else if(segue?.identifier == "popup")
         {
-            let detailVC  = segue!.destinationViewController as! AreaViewController
+            let detailVC  = segue!.destinationViewController as! PopupViewController
             // Set the property to the selected location so when the view for
             // detail view controller loads, it can access that property to get the feeditem obj
             //detailVC.url = url

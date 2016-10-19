@@ -9,7 +9,10 @@
 import UIKit
 
 class LeftViewController: UITableViewController {
-
+ 
+    @IBOutlet var table: UITableView!
+     static var subsi = ""
+    var sub = ["","BCCL","CCL","ECL","MCL","NCL","NEC","SECL","WCL"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,16 +30,38 @@ class LeftViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-     func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+   
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+        let row = indexPath.row
+        print(row)
+        
+        if(row>1)
+        {
+            LeftViewController.doSomething(sub[row])
+            print("##\(LeftViewController.subsi)")
+            //subsi=sub[row]
+            
+            
+            NSNotificationCenter.defaultCenter().postNotificationName("load",
+                                                                      object: nil,
+                                                                      userInfo:["message":sub[row]])
+            
+            
+            print("@@@\(sub[row])")
+        }
+       
     }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+    
+    class func doSomething(comp: String)
+    {
+        subsi = comp
+        print(subsi)
     }
-
+    
+    
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)

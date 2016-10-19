@@ -26,6 +26,10 @@
 		215984B71DB2108A00132929 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215984B61DB2108A00132929 /* CollectionViewCell.swift */; };
 		215984B91DB23E5800132929 /* AreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215984B81DB23E5800132929 /* AreaViewController.swift */; };
 		215984C31DB4A3A100132929 /* AreaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215984C21DB4A3A100132929 /* AreaTableViewCell.swift */; };
+		216E472B1DB4D8DE0024BC60 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E472A1DB4D8DE0024BC60 /* ProjectViewController.swift */; };
+		216E472D1DB501080024BC60 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E472C1DB501080024BC60 /* ProjectTableViewCell.swift */; };
+		216E472F1DB739BB0024BC60 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E472E1DB739BB0024BC60 /* DetailViewController.swift */; };
+		216E47311DB7585D0024BC60 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E47301DB7585D0024BC60 /* PopupViewController.swift */; };
 		665A40E020F40A1EFBE5168A /* Pods_minewater1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CCE3A979D059178A5EE938 /* Pods_minewater1.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +78,10 @@
 		215984B61DB2108A00132929 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		215984B81DB23E5800132929 /* AreaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaViewController.swift; sourceTree = "<group>"; };
 		215984C21DB4A3A100132929 /* AreaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaTableViewCell.swift; sourceTree = "<group>"; };
+		216E472A1DB4D8DE0024BC60 /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		216E472C1DB501080024BC60 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
+		216E472E1DB739BB0024BC60 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		216E47301DB7585D0024BC60 /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		67CCE3A979D059178A5EE938 /* Pods_minewater1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_minewater1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C6D842D2F46E22D092C941 /* Pods-minewater1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minewater1.release.xcconfig"; path = "Pods/Target Support Files/Pods-minewater1/Pods-minewater1.release.xcconfig"; sourceTree = "<group>"; };
 		CE05A452E7BCE9BA6F6C439D /* Pods-minewater1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minewater1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-minewater1/Pods-minewater1.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +165,10 @@
 				215984B61DB2108A00132929 /* CollectionViewCell.swift */,
 				215984B81DB23E5800132929 /* AreaViewController.swift */,
 				215984C21DB4A3A100132929 /* AreaTableViewCell.swift */,
+				216E472A1DB4D8DE0024BC60 /* ProjectViewController.swift */,
+				216E472C1DB501080024BC60 /* ProjectTableViewCell.swift */,
+				216E472E1DB739BB0024BC60 /* DetailViewController.swift */,
+				216E47301DB7585D0024BC60 /* PopupViewController.swift */,
 			);
 			path = minewater1;
 			sourceTree = "<group>";
@@ -389,10 +401,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				215984A51DB1069D00132929 /* SubsidiaryViewController.swift in Sources */,
+				216E472F1DB739BB0024BC60 /* DetailViewController.swift in Sources */,
 				215984AB1DB1180400132929 /* RightViewController.swift in Sources */,
 				215984B71DB2108A00132929 /* CollectionViewCell.swift in Sources */,
 				215984B31DB1235200132929 /* SubsidiaryTableViewCell.swift in Sources */,
+				216E47311DB7585D0024BC60 /* PopupViewController.swift in Sources */,
 				215984B91DB23E5800132929 /* AreaViewController.swift in Sources */,
+				216E472B1DB4D8DE0024BC60 /* ProjectViewController.swift in Sources */,
 				210A67EE1DA6327F002408F4 /* KDCircularProgress.swift in Sources */,
 				215984B51DB12CB900132929 /* Helpers.swift in Sources */,
 				210A67E91DA62D59002408F4 /* custom.swift in Sources */,
@@ -402,6 +417,7 @@
 				215984B11DB1192F00132929 /* LeftViewController.swift in Sources */,
 				210A67B91DA626F9002408F4 /* AppDelegate.swift in Sources */,
 				215984A31DB1008900132929 /* SWRevealViewController.m in Sources */,
+				216E472D1DB501080024BC60 /* ProjectTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
